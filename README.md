@@ -1,4 +1,4 @@
-# **naive bayes classifier**
+# **Naive bayes classifier**
 import pandas as pd
 
 #**Loading the data**
@@ -17,6 +17,8 @@ iris =  pd.read_csv(csv_url, names = col_names)
 (2)Dataset Info
 iris.info()
 ![information of dataset](image-2.png)
+
+
 
 (3)iris.describe()
 ![alt text](image-4.png)
