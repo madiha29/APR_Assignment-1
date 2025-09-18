@@ -16,6 +16,8 @@ iris =  pd.read_csv(csv_url, names = col_names)
 
 (2)Dataset Info
 iris.info()
+
+
 ![information of dataset](image-2.png)
 
 
