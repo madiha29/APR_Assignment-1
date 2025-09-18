@@ -33,45 +33,31 @@ sns.pairplot(iris)
 plt.show()
 ![alt text](image-5.png)
 
-**Showing correlation among features(non-categorical) via heatmap**
+**(5)Showing correlation among features(non-categorical) via heatmap**
 ![alt text](image-7.png)
 
-**Checking for null values in each column**
+**(6)Checking for null values in each column**
 
-**Checking for duplicate rows**
+**(7)Checking for duplicate rows**
 
-**Counting unique values of each column using value_counts function**
+**(8)Counting unique values of each column using value_counts function**
 
-**Removal of duplicate rows**
+**(9)Removal of duplicate rows**
 iris.drop_duplicates(inplace=True)
 
-**Final Dataset after performing EDA**
+**(10)Final Dataset after performing EDA**
 ![alt text](image-6.png)
 
-**Separation of 'Class' column and storing in variable Y and other columns in variable X.**
+**(11)Separation of 'Class' column and storing in variable Y and other columns in variable X.**
 
-X=iris.loc[:,'Sepal_Length':'Petal_Width']
-Y=iris.loc[:,'Class']
+**(12)Train-test split with test size=0.2**
 
-**Train-test split with test size=0.2**
-X_train,X_test,Y_train,Y_test=train_test_split(X,Y,test_size=0.2,random_state=25)
-X_train.shape,X_test.shape,Y_train.shape,Y_test.shape
-
-**Performing training(fitting) the train data into the model and then giving the predictions.**
-from sklearn.naive_bayes import GaussianNB
-
-clf = GaussianNB()
-clf.fit(X_train, Y_train)
-SkTrain = clf.predict(X_train) 
-SkTest = clf.predict(X_test)
+**(13)Performing training(fitting) the train data into the naive_bayes model and then giving the predictions.**
 
 
-**Printing the predictions**
-SkTest
+**(14)Printing the predictions**
 
-**Printing the accuracy score**
-accuracy_score(SkTest,Y_test)
-=0.8333333333333334
+**(15)Printing the accuracy score**
 
 
 
