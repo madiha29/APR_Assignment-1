@@ -17,7 +17,6 @@ iris =  pd.read_csv(csv_url, names = col_names)
 (2)Dataset Info
 iris.info()
 ![information of dataset](image-2.png)
-![alt text](image-2.png)
 
 (3)iris.describe()
 ![alt text](image-4.png)
@@ -32,7 +31,7 @@ plt.show()
 ![alt text](image-7.png)
 
 **Checking for null values in each column**
-iris['Sepal_Length'].isnull().sum()
+'''iris['Sepal_Length'].isnull().sum()'''
 iris['Sepal_Width'].isnull().sum()
 
 **Checking for duplicate rows**
