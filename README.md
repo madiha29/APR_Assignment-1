@@ -27,7 +27,7 @@ iris.info()
 
 ![alt text](image-4.png)
 
-**Visualizing using seaborn**
+**(4)Visualizing using seaborn**
 plt.figure(figsize=(20, 10))
 sns.pairplot(iris)
 plt.show()
