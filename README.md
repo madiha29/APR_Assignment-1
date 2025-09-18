@@ -1,10 +1,9 @@
-#** Python used is - Python 3.13.5**
+** Python used is - Python 3.13.5**
 
 
-#** need to download basic libraries like pandas, matplotlib for running the code**
+** need to download basic libraries like pandas, matplotlib for running the code**
 
-# **Naive bayes classifier**
-import pandas as pd
+ **Naive bayes classifier**
 
 #**Loading the data**
 csv_url = 'https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data'
