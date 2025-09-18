@@ -31,22 +31,10 @@ plt.show()
 ![alt text](image-7.png)
 
 **Checking for null values in each column**
-   <!-- iris['Sepal_Length'].isnull().sum() -->
-  
-
-    <!--
-iris['Sepal_Length'].isnull().sum()
-iris['Sepal_Width'].isnull().sum()
-  .
-    -->
-'''iris['Sepal_Length'].isnull().sum()'''
-iris['Sepal_Width'].isnull().sum()
 
 **Checking for duplicate rows**
-iris.duplicated().sum()
 
-**Counting unique values of each column**
-iris.Sepal_Length.value_counts()
+**Counting unique values of each column using value_counts function**
 
 **Removal of duplicate rows**
 iris.drop_duplicates(inplace=True)
