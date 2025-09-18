@@ -8,11 +8,6 @@ iris =  pd.read_csv(csv_url, names = col_names)
 
 
 **First five rows of dataframe**
-**First five rows of dataframe**
-
-```python
-iris.head()
-
 
 ![First five rows of dataframe](image-1.png)
 
