@@ -11,7 +11,8 @@ iris =  pd.read_csv(csv_url, names = col_names)
 
 First five rows of dataframe
 
-![image_alt]https://github.com/madiha29/APR_Assignment-1/blob/be2a656bb11d69bd54cdddc404ba74d96a8b727e/image-1.png
+![First five rows of dataframe](image-1.png)
+
 
 ```python
 iris.head()'''
