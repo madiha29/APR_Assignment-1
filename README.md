@@ -31,6 +31,7 @@ plt.show()
 ![alt text](image-7.png)
 
 **Checking for null values in each column**
+   <!-- iris['Sepal_Length'].isnull().sum() -->
   
 
     <!--
