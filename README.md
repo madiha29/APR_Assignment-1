@@ -31,11 +31,12 @@ plt.show()
 ![alt text](image-7.png)
 
 **Checking for null values in each column**
-    <!-- This is a single-line comment. -->
+  
 
     <!--
-    This is a multi-line comment.
-    It can span across several lines.
+iris['Sepal_Length'].isnull().sum()'''
+iris['Sepal_Width'].isnull().sum()
+  .
     -->
 '''iris['Sepal_Length'].isnull().sum()'''
 iris['Sepal_Width'].isnull().sum()
