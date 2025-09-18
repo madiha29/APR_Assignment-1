@@ -34,7 +34,7 @@ plt.show()
   
 
     <!--
-iris['Sepal_Length'].isnull().sum()'''
+iris['Sepal_Length'].isnull().sum()
 iris['Sepal_Width'].isnull().sum()
   .
     -->
