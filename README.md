@@ -23,6 +23,8 @@ iris.info()
 
 
 (3)iris.describe()
+
+
 ![alt text](image-4.png)
 
 **Visualizing using seaborn**
