@@ -1,3 +1,6 @@
+** Python used is - Python 3.13.5**
+** need to download basic libraries like pandas, matplotlib for running the code**
+
 # **Naive bayes classifier**
 import pandas as pd
 
