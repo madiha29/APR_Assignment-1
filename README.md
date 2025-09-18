@@ -12,19 +12,11 @@ iris =  pd.read_csv(csv_url, names = col_names)
 ![First five rows of dataframe](image-1.png)
 
 
-```python
-iris.head()'''
-![alt text](image-1.png)
-
 # **EDA**
 
-**1. Shape of Dataset**
-```python
-iris.shape()
-
-(2)
-```python
+(2)Dataset Info
 iris.info()
+![information of dataset](image-2.png)
 ![alt text](image-2.png)
 
 (3)iris.describe()
